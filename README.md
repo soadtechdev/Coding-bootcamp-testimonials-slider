@@ -2,6 +2,9 @@
 ###### Preview:
 ![foto del proycto](https://i.ibb.co/bXkcHt5/convertiragif.gif "foto del proycto")
 
+## Demo
+puedes ver el demo dando[ click aqui](https://coding-bootcamp-testimonials-slider-inky.now.sh/ " click aqui")
+
 ## El reto
 Your challenge is to build out this landing page and get it looking as close to the design as possible.
 
