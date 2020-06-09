@@ -55,6 +55,7 @@ body {
   top: 190px;
   left: 122px;
   color: hsl(240, 38%, 20%);
+  z-index: 2;
 }
 .quote__container--description {
   font-weight: 300;
@@ -64,6 +65,7 @@ body {
   letter-spacing: 0.8px;
   margin-top: 10px;
 }
+
 .quote__cite--name {
   margin-right: 8px;
   font-weight: 700;
@@ -127,4 +129,32 @@ body {
 }
 .attribution {
   font-size: 15px;
+}
+
+/**ANIMACIONES**/
+.animationText {
+  transition: all 1s ease-out;
+  animation: animationInfo 0.4s;
+}
+@keyframes animationInfo {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.animationImg {
+  transition: all 1s ease-out;
+  animation: animationImages 0.4s;
+}
+
+@keyframes animationImages {
+  0% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
 }
