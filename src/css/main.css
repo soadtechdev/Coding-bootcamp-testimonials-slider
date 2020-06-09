@@ -158,3 +158,81 @@ body {
     transform: translateX(0px);
   }
 }
+
+@media only screen and (max-width: 1325px) {
+  .app {
+    width: 100vw;
+    padding: 0px;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 60px;
+    align-content: start;
+    justify-content: center;
+    justify-items: center;
+    background-attachment: fixed;
+  }
+  .quote__container {
+    background-position-x: 50%;
+    text-align: center;
+    position: static;
+    top: 0;
+    left: 0;
+    grid-row-start: 2;
+    grid-row-end: 3;
+  }
+  .quote__cite--name {
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+  .quote__cite--name,
+  .quote__cite--profession {
+    height: 28px;
+  }
+  .image__container {
+    background-size: contain;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: grid;
+    justify-content: center;
+  }
+  .navigation__buttons {
+    left: 40%;
+    top: -30px;
+  }
+}
+@media only screen and (max-width: 740px) {
+  .app {
+    grid-row-gap: 20px;
+  }
+  .quote__container,
+  .image__container {
+    width: 335px;
+    height: 335px;
+  }
+  .image__container {
+    margin-top: 20px;
+    padding: 40px 36px 40px 30px;
+  }
+  .image__container img {
+    width: 272.5px;
+    height: 262.5px;
+  }
+  .navigation__buttons {
+    width: 100px;
+    height: 50px;
+    left: 90px;
+    top: -25px;
+  }
+  .quote__container {
+    background-size: 20%;
+    padding: 28px 15px 0 15px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+  .quote__container--description {
+    font-weight: 300;
+  }
+  .attribution {
+    text-align: center;
+  }
+}
