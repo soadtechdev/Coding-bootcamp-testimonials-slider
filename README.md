@@ -14,6 +14,6 @@ Your users should be able to:
 - **Navigate the slider using either their mouse/trackpad or keyboard *(keyboard aun no implementado)***
 
 ## comandos
-> yarn install
-> yarn build
-> yarn start
+1. yarn install
+2. yarn start
+3. yarn build
